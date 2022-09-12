@@ -1,8 +1,8 @@
-# Coinbase_Commerce_PHP
-How To Test Coinbase Commerce with Webhook on Localhost.
+# How To Test Coinbase Commerce with Webhook on Localhost.
 
 ## To create charge
-On This page https://beta.commerce.coinbase.com/settings/security click on New Api Key Button and copy that API key and paste in charge_create.php.
+
+On This page https://beta.commerce.coinbase.com/settings/security Click on 'New Api Key' Button and copy the API key and paste in charge_create.php file.
 
 => webhook.php  --> use webhook to insert data in database.
 On This page https://beta.commerce.coinbase.com/settings/notifications click on Add an Endpoint and paste the ngrok URL+webhook.php (example : https://c0b1-223-178-209-142.in.ngrok.io/webhook.php)
