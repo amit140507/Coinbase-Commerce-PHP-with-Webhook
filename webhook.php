@@ -3,7 +3,7 @@
 include_once "config.php";
 //TO INSERT DATA IN DATABASE.
 
-$secret = "8e201dc3-fd4c-4a67-9111-ba5a18ed4432";
+$secret = "YOUR_SHARED_SECRET";
 
 $payload = file_get_contents("php://input");
 $hash = hash_hmac('sha256', $payload, $secret);
