@@ -1,4 +1,4 @@
-# How To Test Coinbase Commerce with Webhook on Localhost.
+#Test Coinbase Commerce with Webhook on Localhost.
 
 ## To create charge
 
