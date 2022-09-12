@@ -9,10 +9,14 @@ On This page, https://beta.commerce.coinbase.com/settings/security Click on **Ne
  Copy Shared Secret and Paste in webhook.php file.
  
 Open cmd in your current folder and paste this command:
-``` php -S localhost:8080 webhook.php ```
+``` 
+php -S localhost:8080 webhook.php
+```
 
 To make your server externally accessible, you can install ngrok and run this command in cmd:
-``` ngrok http 8080```
+```
+ngrok http 8080
+```
 
 The output should be something similar to:
 
