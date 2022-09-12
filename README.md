@@ -2,10 +2,10 @@
 
 ## To create charge
 
-On This page, https://beta.commerce.coinbase.com/settings/security Click on 'New Api Key' Button and copy the API key and paste in charge_create.php file.
+On This page, https://beta.commerce.coinbase.com/settings/security Click on **New Api Key** Button and copy the API key and paste in charge_create.php file.
 
 ## Use Webhook to Insert data in database or Send Emails.
- Visit this page, https://beta.commerce.coinbase.com/settings/notifications and Click on 'Show Shared Secret' Button.
+ Visit this page, https://beta.commerce.coinbase.com/settings/notifications and Click on **Show Shared Secret** Button.
  Copy Shared Secret and Paste in webhook.php file.
  
 Open cmd in your current folder and paste this command:
@@ -25,7 +25,7 @@ Forwarding                    http://cbfcdae9.ngrok.io -> localhost:3000
 
 Open this link written in front of Web Interface (in my case it is  http://127.0.0.1:4040 ). This is where you can see webhook working.
 
-Visit This page, https://beta.commerce.coinbase.com/settings/notifications Click on 'Add an Endpoint' Button and paste the ngrok forwarding URL+webhook.php (Example : http://cbfcdae9.ngrok.io/webhook.php)
+Visit This page, https://beta.commerce.coinbase.com/settings/notifications Click on **Add an Endpoint** Button and paste the ngrok forwarding URL+webhook.php (Example : http://cbfcdae9.ngrok.io/webhook.php)
 
 ## Testing Time
 
