@@ -18,7 +18,7 @@ curl_setopt_array($curl, [
     CURLOPT_SSL_VERIFYPEER => false,
     CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
     CURLOPT_CUSTOMREQUEST => "POST",
-    CURLOPT_POSTFIELDS => "{\"local_price\":{\"amount\":$amount,\"currency\":\"USD\"},\"metadata\":{\"customer_email\":\"$email\",\"customer_name\":\"$name $surname\"},\"logo_url\":\"\",\"name\":\"All Year Cooling\",\"description\":\"South Florida's #1 Choice For Same Day AC Service & Installation\",\"pricing_type\":\"fixed_price\",\"redirect_url\":\"https://simpleseogroup.co/allyearcooling/thank-you/\",\"cancel_url\":\"https://simpleseogroup.co/allyearcooling/\"}",
+    CURLOPT_POSTFIELDS => "{\"local_price\":{\"amount\":$amount,\"currency\":\"USD\"},\"metadata\":{\"customer_email\":\"$email\",\"customer_name\":\"$name $surname\"},\"logo_url\":\"\",\"name\":\"Coinbase Payment\",\"description\":\"Test Payment\",\"pricing_type\":\"fixed_price\",\"redirect_url\":\"https://simpleseogroup.co/allyearcooling/thank-you/\",\"cancel_url\":\"https://simpleseogroup.co/allyearcooling/\"}",
     CURLOPT_HTTPHEADER => [
         "Accept: application/json",
         "Content-Type: application/json",
@@ -40,4 +40,3 @@ if ($err) {
     
     header("location:$redirect");
 }
-
